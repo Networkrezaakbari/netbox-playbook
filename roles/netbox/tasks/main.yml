@@ -47,10 +47,10 @@
 - name: Configure netbox
   template:
     src=roles/netbox/templates/configuration.py.j2
-    dest=/opt/netbox/netbox/netbox/configuration.py
+    dest=/opt/netbox/configuration.py
 
 - name: Run migrations
-  command: /opt/netbox/netbox/manage.py migrate
+  command: /opt/netbox/manage.py migrate
 
 - name: Configure gunicorn
   copy:
