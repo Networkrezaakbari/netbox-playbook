@@ -5,8 +5,8 @@
     - libpq-dev 
     - python3-psycopg2
     - git
-    - python-pip
-    - python-dev
+    - python3-pip
+    - python3-dev
     - libxml2-dev 
     - libxslt1-dev 
     - libffi-dev 
