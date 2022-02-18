@@ -1,12 +1,12 @@
 ---
 # Database administrator credentials
-db_admin_username: netbox
-db_admin_password: "netbox123"
+db_admin_username: deploy
+db_admin_password: "2781"
 
 # Netbox database credentials
-netbox_db_username: netbox
-netbox_db_password: "netbox123"
-netbox_db_database: netbox
+netbox_db_username: deploy
+netbox_db_password: "2781"
+netbox_db_database: deploy
 netbox_db_host: localhost
 # leave blank for default port
 netbox_db_port: 
