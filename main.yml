@@ -1,9 +1,9 @@
 ---
 
 - hosts: all
-  user: deploy
-  become: True
-  gather_facts: True
+  user: root
+  become: true
+  gather_facts: false
   vars_files:
     - vars/vars.yml
 
